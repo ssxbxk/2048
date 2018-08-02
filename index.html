@@ -1,0 +1,38 @@
+<!--
+index.html by 94302037@qq.com
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="index.css" rel="stylesheet" />
+    <title>2048</title>
+</head>
+<body>
+	<div id="preFiled" class="mainDiv" style="float:left;display:none;"></div>
+	<div id="mainFiled" class="mainDiv" style="float:left"></div>
+	<div style="float:left">
+		<table class="tbResult">
+			<tr>
+				<td>地图大小: </td>
+				<td>
+					<select id="selMapSize">
+						<option value="2">2x2</option>
+						<option value="3">3x3</option>
+						<option value="4" selected = "selected">4x4</option>
+						<option value="5">5x5</option>
+						<option value="6">6x6</option>
+					</select>
+					<input type="button" value="确定" id="btnChangeMap"/>
+				</td>
+			</tr>
+			<tr><td>当前得分: </td><td id='tdScore' >0</td></tr>
+			<tr><td>最佳成绩: </td><td id='tdMaxScore' >0</td></tr>
+			<tr><td colspan="2" id='tdFinished' style="display:none;color:red"></td></tr>
+		</table>
+	</div>
+	<script src="./jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>

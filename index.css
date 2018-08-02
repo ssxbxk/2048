@@ -1,0 +1,101 @@
+/*
+index.css by 94302037@qq.com
+*/
+
+.mainDiv{
+	border: 1px solid white;
+	background-color: #cccccc;
+}
+
+.cellDiv, .BGDiv{
+	width:50px;
+	height:50px;
+	border: 1px solid black;
+	position:absolute;
+}
+
+.cellspan{
+	width:50px;
+	height:50px;
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align:center;
+	vertical-align: middle;
+	display:table-cell;
+	color:black;
+}
+
+.tbResult{
+	width:200px;
+	color:Orange;
+	font-size: 15px;
+	font-family: Arial;
+	font-weight: bold;
+	text-align:right;
+}
+
+.c2{
+	background-color:AliceBlue;
+	color:white;
+}
+
+.c4{
+	background-color:AntiqueWhite;
+	color:white;
+}
+
+.c8{
+	background-color:Bisque;
+	color:white;
+}
+
+.c16{
+	background-color:Aquamarine;
+	color:white;
+}
+
+.c32{
+	background-color:DeepSkyBlue;
+	color:Orange;
+}
+
+.c64{
+	background-color:DarkTurquoise;
+	color:Orange;
+}
+
+.c128{
+	background-color:DodgerBlue;
+	color:Orange;
+}
+
+.c256{
+	background-color:Pink;
+	color:Orange;
+}
+
+.c512{
+	background-color:Plum;
+	color:Orange;
+}
+
+.c1024{
+	background-color:RosyBrown;
+	color:Orange;
+}
+
+.c2048{
+	background-color:Red;
+	color:Orange;
+}
+
+.c4096{
+	background-color:Purple;
+	color:Orange;
+}
+
+.c8192{
+	background-color:OrangeRed;
+	color:Orange;
+}
